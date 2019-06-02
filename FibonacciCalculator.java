@@ -9,9 +9,9 @@ public class FibonacciCalculator {
     public FibonacciCalculator () {
         types = new String [] {"recursive", "iterative"};
     }
-    
 
-    // Main driver code.
+
+    // Main driver code
     public static void main(String[] args) {
         Scanner input_scanner = new Scanner(System.in);
 
@@ -27,7 +27,7 @@ public class FibonacciCalculator {
         Fibonacci fib = new Fibonacci();
         int result = fib.fibonacci(num, type);
 
-        System.out.print("\nThe Fibonacci number of " + num + " is " + result);
+        System.out.print("The Fibonacci number of " + num + " is " + result);
 
     }
 
@@ -53,7 +53,7 @@ public class FibonacciCalculator {
     }
 
 
-    // This is a stub for testing the timing.
+    // This is a stub for testing the timing
     public void testPerformance() {
         // to do - compare recursion to iteration using wall clock speed
     }
